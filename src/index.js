@@ -20,7 +20,7 @@ const BookList = () => {
 const Book = ({ img, id, title, author, ranking, onBookClick }) => {
   return (
     <article className='book'>
-      <div>{ranking}</div>
+      <div className='ranking'>{ranking}</div>
       <img src={img} alt='' />
       <h2>{title}</h2>
       <h4>{author}</h4>

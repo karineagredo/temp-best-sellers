@@ -30,6 +30,7 @@ body {
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    position: relative;
 }
 
 .book h2 {
@@ -40,4 +41,13 @@ body {
 .book img {
     width: 100%;
     object-fit: cover;
+}
+
+.ranking {
+    background: orange;
+    position: absolute;
+    width: 2rem;
+    color: white;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
 }
